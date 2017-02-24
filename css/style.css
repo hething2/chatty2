@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    font-size: 14pt;
+    background-color: #2e2e2e;
+}
+#main-wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+#nickWrap{
+    position: relative;
+    top: 300px;
+    width: 350px;
+    margin: 0 auto;
+}
+#nickWrap span{
+    color:white;
+}
+#setNick{
+    margin-top: 5px;
+}
+#nickContent{
+    margin: 10px;
+}
+.title{
+    text-align: center;
+    color: #407F19;
+    font-size: 2.4em;
+}
+#users{
+    float:left;
+    background-color: #eee;
+    width: 170px;
+    height: 470px;
+    margin: 0 20px 0 0;
+    padding: 15px;
+}
+#chat{
+    position: center;
+    padding: 15px;
+    float:right;
+    width: 650px;
+    height: 420px;
+    background-color: #eee;
+    overflow-y:auto;
+}
+#message{
+    border: none;
+    background-color: #eee;
+    margin: 18px 0 0 0;
+    height: 30px;
+    font-size: 1em;
+}
+#name{
+    font-weight: bold;
+    color: #407F19;
+}
+#submitMessage{
+    width: 111px;
+    height: 30px;
+    background-color: #407F19;
+    border: none;
+    font-size: 1em;
+    color: #eee;
+    float:right;
+    margin-top:18px;
+}
+#contentWrap {
+    position:center;
+    display: none;
+    margin-top: 80px;
+}
+
+.error{
+    color:red;
+}
+.whisper{
+    color:grey;
+    font-style: italic;
+}

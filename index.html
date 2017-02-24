@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Chatty.io</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main-wrap">
+
+    <div id="nickWrap">
+        <div id="nickContent">
+            <span>Enter a username:</span>
+            <span id="nickError"></span>
+            <form id="setNick">
+                <input size="35" id="nickname">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <div id="contentWrap">
+        <h1 class="title">Chatty.io</h1>
+        <div id="users"></div>
+        <div id="chatWrap">
+            <div id="chat"></div>
+            <form id="send-message">
+                <input size="58" id="message">
+                <input type="submit" value="Send" id="submitMessage">
+            </form>
+        </div>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

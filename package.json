@@ -1,0 +1,24 @@
+{
+  "name": "harry",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "socket.io": "0.9.16",
+    "express": "3.4.8"
+  },
+  "description": "Make sure do have mongodb and node.js setup on your machine.",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "poop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "f"
+  },
+  "keywords": [
+    "f"
+  ],
+  "author": "h",
+  "license": "ISC"
+}
